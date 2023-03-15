@@ -1,14 +1,15 @@
 *{
-    background-color: black;    
-    margin: 0%;
-    padding: 0%;
+    background-color: #D8DAD3 ;    
+    margin: 1rem 1%;
+
 }
 
-img{
-    height: 15rem;
-    width: 12rem;
+#logo{
+    height: 10rem;
+    width: 40rem;
     display: block;
     margin: auto;
+    padding: 1%;
 }
 
 nav ul{
@@ -21,13 +22,13 @@ nav li{
     margin-left: auto;
     margin-right: auto;
 }
-.navbar {
+.navigationbar {
     display: flex;
     justify-content: center;
     text-align: center;
     margin-top: 1%;
   }
-.navbar a {
+.navigationbar a {
     color: white;
     font-size: 16px;
     margin: 1rem;
@@ -39,7 +40,47 @@ nav li{
 
 }
 
-.navbar a:hover {
+.navigationbar a:hover {
     color: black;
-    background-color: #B53434;
+    background-color: #F4CE14;
+}
+
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+section{
+    display: flex;
+}
+article, h1, h2, article p{
+    flex: 1;
+    background-color: #C4B2BC;
+    border-radius: 1rem;
+}
+#footer-image{
+    height: 6rem;
+    width: 3.5rem;
+}
+
+footer{
+    display: flex;
+}
+
+footer div{
+    flex: 1;
+}
+
+footer p{
+    border-top:solid black;
+}
+
+h1:hover{
+    color: crimson;
+}
+h2 a{
+    color: black;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0);
 }
